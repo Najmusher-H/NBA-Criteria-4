@@ -1,0 +1,6 @@
+{
+  "name": "NBA Accreditation - Faculty Stats Evaluator",
+  "description": "Calculates Faculty Qualification Index (FQI) and Retention (FR) based on NBA SAR standards using faculty list data across multiple academic years.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
