@@ -8,6 +8,7 @@ import { CR4Module } from './components/CR4Module';
 type Tab = 'C4' | 'C5';
 
 export default function App() {
+  console.log('App component rendering...');
   const { results, avgFQI, avgFR, individualFaculty, allYears } = useMemo(() => getAllStats(), []);
   const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<Tab>('C4');
