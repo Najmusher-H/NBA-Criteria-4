@@ -154,7 +154,7 @@ export default function App() {
                           <tfoot>
                             <tr className="bg-[#f1f5f9] font-bold">
                               <td colSpan={5} className="px-6 py-4 text-right text-[11px] uppercase tracking-wider text-[#64748b]">Averaged Faculty Qualification Index</td>
-                              <td className="px-6 py-4 text-right text-[#2563eb] text-lg">{avgFQI.toFixed(2)}</td>
+                              <td className="px-6 py-4 text-right text-[#2563eb] text-lg">{avgFQI?.toFixed(2) || "0.00"}</td>
                             </tr>
                           </tfoot>
                         </table>
@@ -197,7 +197,7 @@ export default function App() {
                           <tfoot>
                             <tr className="bg-[#f1f5f9] font-bold">
                               <td colSpan={6} className="px-6 py-4 text-right text-[11px] uppercase tracking-wider text-[#64748b]">Average Retention Points (FR)</td>
-                              <td className="px-6 py-4 text-right text-[#10b981] text-lg">{avgFR.toFixed(2)}</td>
+                              <td className="px-6 py-4 text-right text-[#10b981] text-lg">{avgFR?.toFixed(2) || "0.00"}</td>
                             </tr>
                           </tfoot>
                         </table>
